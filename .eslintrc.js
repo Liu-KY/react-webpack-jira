@@ -1,13 +1,13 @@
 module.exports = {
-    parserOptions: {
-        ecmaVersion: 6,
-        sourceType: "module",
-        ecmaFeatures: {
-            jsx: true,
-        },
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: "module",
+    ecmaFeatures: {
+      jsx: true,
     },
-    extends: ['airbnb','airbnb/hooks'],
-    rules: {
-        semi: "error",
-    },
+  },
+  extends: ["airbnb", "airbnb/hooks", "prettier"],
+  rules: {
+    semi: "error",
+  },
 };
