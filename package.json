@@ -50,13 +50,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "eslintConfig": {
-    "extends": [
-      "airbnb",
-      "airbnb/hooks",
-      "prettier"
-    ]
-  },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
     "*.{js,css,md,ts,tsx}": "prettier --write"
