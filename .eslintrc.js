@@ -6,7 +6,7 @@ module.exports = {
       jsx: true,
     },
   },
-  extends: ["airbnb", "airbnb/hooks", "prettier"],
+  // extends: ["airbnb", "airbnb/hooks", "prettier"],
   rules: {
     semi: "error",
   },

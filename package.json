@@ -52,8 +52,8 @@
   },
   "eslintConfig": {
     "extends": [
-      "airbnb",
-      "airbnb/hooks",
+      "react-app",
+      "react-app/jest",
       "prettier"
     ]
   },
