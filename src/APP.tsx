@@ -1,8 +1,8 @@
 import "./app.scss";
-import { useState } from "react";
+import React from "react";
 
-export const App = () => {
-  const [name] = useState();
+function App() {
+  return <div className="cs">111</div>;
+}
 
-  return <div className={"cs"}>111</div>;
-};
+export default App;

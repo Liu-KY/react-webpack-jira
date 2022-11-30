@@ -6,8 +6,18 @@ module.exports = {
       jsx: true,
     },
   },
-  // extends: ["airbnb", "airbnb/hooks", "prettier"],
+  extends: ["airbnb", "airbnb/hooks", "prettier"],
   rules: {
     semi: "error",
+    "react/jsx-filename-extension": [
+      2,
+      {
+        extensions: [".js", ".jsx", ".ts", ".tsx"],
+      },
+    ],
+  },
+  env: {
+    browser: true,
+    node: true,
   },
 };
